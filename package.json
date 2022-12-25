@@ -1,0 +1,26 @@
+{
+  "name": "coin-market-lib",
+  "version": "1.0.0",
+  "description": "Exposes the Coin Market API",
+  "dependencies": {
+    "@types/node": "^18.11.17",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "rollup": "^3.8.1",
+    "rollup-plugin-dts": "^5.1.0",
+    "typescript": "^4.9.4"
+  },
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "tsc && rollup -c"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [],
+  "author": "g.sriharsha@iiitb.ac.in",
+  "license": "ISC"
+}
