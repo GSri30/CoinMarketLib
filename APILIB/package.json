@@ -1,5 +1,5 @@
 {
-  "name": "coin-market-lib",
+  "name": "@cml/apilib",
   "version": "1.0.0",
   "description": "Exposes the Coin Market API",
   "dependencies": {
