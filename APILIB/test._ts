@@ -1,10 +1,10 @@
-import { APILIB, GetCryptoCurrencyParamsType } from './src';
+import { getCryptoCurrencies, GetCryptoCurrencyParamsType } from './src';
 
 const main = async () => {
     const config: GetCryptoCurrencyParamsType = {
         limit : 3
     }
-    const result = await APILIB.getCryptoCurrencies(config);
+    const result = await getCryptoCurrencies(config);
     console.log(result);
     return result.status;
 }
