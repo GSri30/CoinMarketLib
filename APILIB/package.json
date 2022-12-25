@@ -1,6 +1,6 @@
 {
   "name": "cml-apilib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Exposes the Coin Market API",
   "dependencies": {
     "@types/node": "^18.11.17",
@@ -26,5 +26,6 @@
   },
   "keywords": [],
   "author": "g.sriharsha@iiitb.ac.in",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js"
 }
