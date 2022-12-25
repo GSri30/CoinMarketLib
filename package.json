@@ -14,7 +14,8 @@
   },
   "type": "module",
   "scripts": {
-    "prepublishOnly": "tsc && rollup -c"
+    "prepublishOnly": "tsc && rollup -c",
+    "build": "tsc"
   },
   "files": [
     "index.js",

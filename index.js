@@ -1,5 +1,4 @@
-"use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+var __createBinding = (undefined && undefined.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
     if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
@@ -10,11 +9,9 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __exportStar = (this && this.__exportStar) || function(m, exports) {
+var __exportStar = (undefined && undefined.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
-exports.__esModule = true;
-__exportStar(require("./crypto-currency.interface"), exports);
-__exportStar(require("./get-crypto-currency-params.interface"), exports);
-__exportStar(require("./get-crypto-currency-response.interface"), exports);
-__exportStar(require("./status.interface"), exports);
+Object.defineProperty(exports, "__esModule", { value: true });
+__exportStar(require("./lib/index"), exports);
+__exportStar(require("./models/index"), exports);
